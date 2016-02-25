@@ -55,4 +55,5 @@ group :development do
   gem 'capistrano-bundler', '~> 1.1', '>= 1.1.4'
   gem 'capistrano-rails', '~> 1.1', '>= 1.1.6'
   gem 'capistrano-rvm', '~> 0.1.2'
+  gem 'capistrano-spree', '~> 1.0.0'
 end

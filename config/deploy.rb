@@ -52,3 +52,5 @@ namespace :deploy do
   after :publishing, 'deploy:restart'
   after :finishing, 'deploy:cleanup'
 end
+
+after 'deploy:updated', 'deface:precompile'

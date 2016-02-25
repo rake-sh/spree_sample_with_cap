@@ -74,6 +74,9 @@ GEM
     capistrano-rvm (0.1.2)
       capistrano (~> 3.0)
       sshkit (~> 1.2)
+    capistrano-spree (1.0.3)
+      capistrano (~> 3.0)
+      sshkit (>= 1.2.0)
     carmen (1.0.2)
       activesupport (>= 3.0.0)
     cldr-plurals-runtime-rb (1.0.1)
@@ -339,6 +342,7 @@ DEPENDENCIES
   capistrano-bundler (~> 1.1, >= 1.1.4)
   capistrano-rails (~> 1.1, >= 1.1.6)
   capistrano-rvm (~> 0.1.2)
+  capistrano-spree (~> 1.0.0)
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
