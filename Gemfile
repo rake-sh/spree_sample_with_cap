@@ -48,3 +48,11 @@ end
 gem 'spree', '~> 3.0.7'
 gem 'spree_gateway', '~> 3.0.0'
 gem 'spree_auth_devise', '~> 3.0.0'
+
+
+group :development do
+  gem 'capistrano', '~> 3.4'
+  gem 'capistrano-bundler', '~> 1.1', '>= 1.1.4'
+  gem 'capistrano-rails', '~> 1.1', '>= 1.1.6'
+  gem 'capistrano-rvm', '~> 0.1.2'
+end
