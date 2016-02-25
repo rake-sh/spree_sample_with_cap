@@ -2,7 +2,7 @@
 lock '3.4.0'
 
 set :application, 'store' 
-set :repo_url, 'git@github.com:rake-sh/deploy.git'
+set :repo_url, 'git@github.com:rake-sh/spree_sample_with_cap.git'
 
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, '/home/deploy/store' #deploy_test is the application
